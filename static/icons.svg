@@ -1,0 +1,13 @@
+<!-- save as static/icons.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="send" viewBox="0 0 24 24">
+    <path d="M2,21l21,-9L2,3v7l15,2l-15,2v7Z" />
+  </symbol>
+  <symbol id="moon" viewBox="0 0 24 24">
+    <path d="M21 12.79A9 9 0 0111.21 3a7 7 0 000 14 9 9 0 009.79-4.21z" />
+  </symbol>
+  <symbol id="sun" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="5"/>
+    <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+  </symbol>
+</svg>

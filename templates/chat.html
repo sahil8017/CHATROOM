@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SahilChat</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div id="chat-container">
+    <div id="header">
+      <h2>🟢 SahilChat</h2>
+      <button id="theme-btn" aria-label="Toggle Theme">
+        <svg><use href="/static/icons.svg#moon"/></svg>
+      </button>
+    </div>
+    <div id="messages"></div>
+    <div id="typing"></div>
+    <form id="form" onsubmit="sendMessage(event)">
+      <input id="input" placeholder="Type a message…" autocomplete="off" />
+      <button type="submit">
+        <svg><use href="/static/icons.svg#send"/></svg>
+      </button>
+    </form>
+  </div>
+
+  <audio id="notif-sound" src="/static/ping.mp3" preload="auto"></audio>
+  <script src="/static/main.js?v=1"></script>
+</body>
+</html>
